@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="conteiner">
+        <div class="timer">
+            <div class="min">01</div>
+            <span>:</span>
+            <div class="sec">00</div>
+        </div>
+        <div class="buttons">
+            <input type="button" value="Start game!" class="start">
+            <input type="button" value="Check result" class="check" disabled>
+            <input type="button" value="New game" class="newG">
+        </div>
+        <div class="blocks">
+            <div class="leftBlock general" id="left">
+
+            </div>
+            <div class="rightBlock general" id="right">
+            </div>
+        </div>
+    </div>
+    <div class="obolochka">
+    </div>
+    <div class="modalDiv">
+        <div class="modalText"></div>
+        <input type="button" value="Close" class="modalClose">
+        <input type="button" value="Check" class="modalCheck">
+    </div>
+    <script src="min-jquery.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
+    <script src="main.js"></script>
+</body>
+
+</html>
